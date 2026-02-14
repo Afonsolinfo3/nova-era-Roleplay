@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Era Roleplay - Loja VIP</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Exo+2:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="nav-container">
+            <h1><i class="fas fa-crown"></i> NOVA ERA ROLEPLAY</h1>
+            <ul>
+                <li><a href="#hero">Início</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="https://discord.gg/exemplo" target="_blank">Discord</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <video class="video-bg" autoplay muted loop playsinline>
+            <source src="/assets/video.mp4" type="video/mp4">
+        </video>
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <p class="hero-subtitle">NOVA ERA ROLEPLAY</p>
+            <h1 class="hero-title">Seja Bem-Vindo ao Melhor Lugar!</h1>
+            <p class="hero-description">Desbloqueie benefícios exclusivos com nossos VIPs: salários dobrados, carros premium, casas luxuosas e muito mais. Junte-se à elite do servidor!</p>
+            <div class="hero-buttons">
+                <button id="ver-loja-btn"><i class="fas fa-arrow-down"></i> VER LOJA</button>
+                <a href="https://discord.gg/exemplo" target="_blank" class="btn-discord"><i class="fab fa-discord"></i> Discord</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="produtos">
+        <div class="container">
+            <h2>Produtos Exclusivos</h2>
+            <div class="filtros">
+                <button class="filtro-btn active" data-categoria="todos"><i class="fas fa-th"></i> Todos</button>
+                <button class="filtro-btn" data-categoria="vips"><i class="fas fa-star"></i> VIPs</button>
+                <button class="filtro-btn" data-categoria="veiculos"><i class="fas fa-car"></i> Veículos</button>
+                <button class="filtro-btn" data-categoria="extras"><i class="fas fa-gift"></i> Extras</button>
+            </div>
+            <div class="produtos-grid" id="produtos-grid"></div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-line"></div>
+        <div class="container">
+            <p>&copy; 2023 Nova Era Roleplay. Todos os direitos reservados.</p>
+            <div class="social-icons">
+                <a href="https://discord.gg/exemplo" target="_blank"><i class="fab fa-discord"></i></a>
+                <a href="https://twitter.com/exemplo" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://instagram.com/exemplo" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
